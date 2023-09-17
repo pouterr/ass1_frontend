@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Schedule</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Games Schedule</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#upcoming-games">Upcoming Games</a></li>
+            <li><a href="#past-games">Past Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="main-content">
+        <img src="wolf.jpg" alt="Games Schedule Logo" id="logo">
+
+        <section id="upcoming-games">
+            <h2 class="section-title">Upcoming Games</h2>
+            <ol>
+                <li>
+                    <strong>Game 1:</strong> Tigers vs. Lions
+                    <p>Date: September 20, 2023</p>
+                    <p>Time: 3:00 PM</p>
+                </li>
+                <li>
+                    <strong>Game 2:</strong> Eagles vs. Falcons
+                    <p>Date: September 25, 2023</p>
+                    <p>Time: 2:30 PM</p>
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="past-games">
+            <h2 class="section-title">Past Games</h2>
+            <ol>
+                <li>
+                    <strong>Game 1:</strong> Bears vs. Wolves
+                    <p>Date: September 10, 2023</p>
+                    <p>Result: Bears won 3-2</p>
+                </li>
+                <li>
+                    <strong>Game 2:</strong> Panthers vs. Rhinos
+                    <p>Date: September 15, 2023</p>
+                    <p>Result: Rhinos won 2-0</p>
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>If you have any questions or feedback, please feel free to contact us:</p>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> 
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="game-results">
+            <h2 class="section-title"><em>Results</em></h2>
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Teams</th>
+                    <th>Date</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Game 1</td>
+                    <td>Tigers vs. Lions</td>
+                    <td>September 20, 2023</td>
+                    <td>3-2 (Tigers)</td>
+                </tr>
+                <tr>
+                    <td>Game 2</td>
+                    <td>Eagles vs. Falcons</td>
+                    <td>September 25, 2023</td>
+                    <td>2-0 (Falcons)</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <blockquote>
+                "The Games Schedule website is amazing! It helps me keep track of all the upcoming games easily."
+                <cite>- John Doe</cite>
+            </blockquote>
+            <blockquote>
+                "I love the detailed results section. Great way to stay updated with the game outcomes."
+                <cite>- Jane Smith</cite>
+            </blockquote>
+        </section>
+
+        <hr>
+
+        <section id="partners">
+            <h2 class="section-title">Our Partners</h2>
+            <ul>
+                <li>AITU</li>
+                <li>EXPO</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2 class="section-title">About Us</h2>
+            <p>We are dedicated to providing you with the latest and most accurate information about upcoming and past games. Stay tuned!</p>
+        </section>
+
+        <section id="highlights">
+            <h2 class="section-title">Event Highlights</h2>
+            <ul>
+                <li>Amazing performances</li>
+                <li>Interactive fan experiences</li>
+                <li>Food and beverage stalls</li>
+            </ul>
+        </section>
+
+        <aside>
+            <h2>Important Information</h2>
+            <p>Make sure to arrive early to secure your seats!</p>
+        </aside>
+
+        <footer>
+            <address>
+                Contact us at <a href="mailto:games@schedule.com">games@schedule.com</a>
+            </address>
+        </footer>
+
+        <time datetime="2023-09-10">10th September 2023</time>
+
+        <abbr title="Frequently Asked Questions">FAQs</abbr>
+
+        <mark>Special Offer!</mark>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Games Schedule. All rights reserved.</p>
+    </footer>
+</body>
+</html>
